@@ -1,0 +1,27 @@
+p.dotted {
+    border-style: dotted;
+    border-width: 2px 1px 3px 2px;
+}
+p.dashed {
+    border-style: dashed;
+    border-left-color: green;
+    padding: 20px;
+}
+p.solid {
+    border-style: solid;
+    
+}
+p.double {
+    border-style: double;
+}
+p.mixed {
+    border-style: solid dashed dotted double;
+}
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+  p.inhr {
+    margin-left: inherit;
+  }
